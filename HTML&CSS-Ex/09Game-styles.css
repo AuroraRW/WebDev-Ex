@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+table{
+    margin:auto;
+}
+td {
+    width: 100px;
+    height: 100px;  
+}
+.vertical {
+    border-right: 1px solid black;
+}
+.horizontal {
+    border-bottom: 1px solid black;
+}
+td:hover{
+    border: 1px solid red;
+}

@@ -1,0 +1,14 @@
+img{
+    float: left;
+    width: 30%;
+    margin: 1.66%; /*1.67% is wrong*/
+}
+p{
+    font-family: Raleway;
+    margin-left: 1.66%;
+	font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 50%;
+}
