@@ -7,3 +7,4 @@ CSS:
    - Each HTML element has padding, border, margin.
    - Size: width, height
    - Position: margin
+3. Selectors
