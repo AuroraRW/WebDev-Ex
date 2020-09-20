@@ -35,3 +35,6 @@ javascript
 
 Function Declarations vs. Function Expressions
 https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/
+
+MDN Events
+https://developer.mozilla.org/zh-CN/docs/Web/Events
