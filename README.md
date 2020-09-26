@@ -1,6 +1,7 @@
 # Web Development Exercise
 
-### Useful website
+### **Useful website**
+#### **CSS**
 30 selectors
 https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 
@@ -18,7 +19,7 @@ https://baconipsum.com/
 lines style
 https://css-tricks.com/examples/hrs/
 
-------------------------------
+#### **Bootstrap**
 bootstrap css
 https://getbootstrap.com/docs/3.4/css/
 
@@ -30,11 +31,18 @@ https://getbootstrap.com/docs/3.4/components/
 
 https://fontawesome.com/v4.7.0/icons/
 
--------------------------------
-javascript
+
+#### **javascript**
 
 Function Declarations vs. Function Expressions
 https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/
 
+#### **DOM**
 MDN Events
 https://developer.mozilla.org/zh-CN/docs/Web/Events
+
+#### **jQuery**
+
+https://api.jquery.com/
+
+
