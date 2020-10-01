@@ -1,8 +1,39 @@
 var express=require("express")
 var app=express()
+var bodyParser=require("body-parser")
+
+app.use(bodyParser.urlencoded({extended: true}))
+//use css folder
+app.use(express.static("public"))
+
+var friends=["Tom"]
 
 app.get("/", function(req,res){
     res.render("home.ejs")
+})
+
+app.get("/fallinlovewith/:thing", function(req,res){
+    var thing=req.params.thing
+    res.render("love.ejs", {thingVar: thing})
+})
+
+app.get("/posts", function(req,res){
+    var postsContent=[
+        {title: "1111", author:"mary"},
+        {title:"2222", author:"Tom"},
+        {title:"3333", author:"David"},
+    ]
+    res.render("posts.ejs",{postsEjs:postsContent})
+})
+app.get("/friends", function(req,res){
+    res.render("friends.ejs",{friends:friends})
+    // res.render("friends.ejs")
+})
+
+app.post("/addfriend", function(req,res){
+    var newFriend=req.body.newfriend
+    friends.push(newFriend)
+    res.redirect("/friends")
 })
 
 app.get("/speak/:animal", function(req,res){
